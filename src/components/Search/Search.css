@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.search input {
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid #d4d3d3;
+  outline: none;
+}
+
+.search input:focus {
+  outline: auto;
+}
+
+.search button {
+  padding: 7px 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(254 223 49);
+  color: #000;
+  transition: 0.3s;
+}
+
+.search button:hover {
+  cursor: pointer;
+  background-color: rgb(221, 194, 40);
+}

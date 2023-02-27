@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    padding: 20px 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    transition: .2s;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover .card {
+    background-color: rgb(240, 240, 240);
+}
+
+.card img {
+    height: 50%;
+}
+
+.card h3 {
+    text-transform: capitalize;
+}
+
+.card span {
+    background-color: rgb(240, 240, 240);
+    color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 5px 0 5px 0;
+    font-size: .8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,12 @@
+.btn-main {
+    background-color: rgb(250, 250, 250);
+    border: 3px solid lightgray;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: .2s;
+}
+
+.btn-main:hover {
+    border: 3px solid gray;
+}

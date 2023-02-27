@@ -1,0 +1,7 @@
+.stats {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    transform: rotateY(180deg);
+}
